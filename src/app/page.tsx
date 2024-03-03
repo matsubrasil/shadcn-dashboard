@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
-
+import GeneralCard from "@/components/cards/general";
 
 export default function Home() {
   return (
-    <div>
-      Home Page
-      <Button variant={"destructive"}>Click me</Button>
+    <div className="bg-slate-200">
+      <div className="grid grid-cols-2">
+        <GeneralCard />
+      </div>
     </div>
   );
 }
